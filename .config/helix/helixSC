@@ -1,0 +1,10 @@
+ALL HELIX SHORTCUTS
+
++--------------+-----------------------------+
+|   Shortcut   |           Fungsi            |
++--------------+-----------------------------+
+| Space +  b   | Ganti buffer (tab switcher)
+| $num  +  j   | Lompat ke bawah $num baris
+| ctrl  +  c   | add comments
+|       +      |
++--------------+-----------------------------+
