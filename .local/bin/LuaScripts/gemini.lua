@@ -1,8 +1,8 @@
-package.path = package.path  .. ";/data/data/com.termux/files/home/.local/share/?.lua"
+package.path = package.path .. ";" .. os.getenv("HOME") .. "/.local/components/?.lua"
 
 -- ================= KONFIGURASI =================
-local config = require("env")
-local api_key = config.keys.gemini
+require("get_env")(nil, true)
+local api_key = GEMINI_API
 
 -- Cek apakah berhasil load API Key
 if not api_key then
