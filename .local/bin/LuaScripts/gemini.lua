@@ -1,7 +1,7 @@
 package.path = package.path .. ";" .. os.getenv("HOME") .. "/.local/components/?.lua"
 
 -- ================= KONFIGURASI =================
-require("get_env")(nil, true)
+require("get_env").load(nil, true)
 local api_key = GEMINI_API
 
 -- Cek apakah berhasil load API Key
